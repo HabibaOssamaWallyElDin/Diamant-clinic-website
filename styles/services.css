@@ -1,0 +1,47 @@
+.services-container {
+    text-align: center;
+    margin: 50px;
+}
+
+.services-container .rec-widget {
+    display: inline-block;
+    width: 250px;
+    height: 450px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: #FFFFFF;
+    vertical-align: top;
+    transition: 0.5s;
+}
+
+.services-container .rec-widget:hover {
+    border-radius: 20px;
+    margin-top: -15px;
+    box-shadow: 5px 5px 20px 0px #616161;
+    transition: 0.5s;
+}
+
+.services-container .rec-widget .title-rec-widget, .services-container .rec-widget .sub-title-rec-widget, .services-container .rec-widget .link-rec-widget-container {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.services-container .rec-widget .title-rec-widget {
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.services-container .rec-widget .sub-title-rec-widget {
+    font-size: 120%;
+}
+
+.services-container .rec-widget a {
+    text-decoration: none;
+    color: #00adb5;
+}
+
+.services-container .rec-widget a:hover {
+    text-decoration: underline;
+}

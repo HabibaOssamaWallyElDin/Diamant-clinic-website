@@ -1,0 +1,49 @@
+.scaling-and-polishing{
+    text-align: center;
+}
+.maintitle,.poltriangle {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 3px;
+    box-shadow: 5px 5px 16px 0px #00adb5;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 150%;
+    background-color: #252525;
+    display: inline-block;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    vertical-align:top ;
+}
+.poltriangle{
+    background: none;
+    fill: #252525;
+    box-shadow: 5px 5px 16px 0px #00adb5;
+display: inline-block;
+
+
+}
+.triangle{
+    margin-top: 20px;
+margin-left: -4px;
+
+}
+.scaling-and-polishing img {
+    width: 50%;
+    margin-left: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+
+}
+.servicedes{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 100%;
+    width: 47%;
+   vertical-align: top;
+   margin-left: 10px;
+}
+.servicedes p{
+    overflow-wrap: break-word;
+}

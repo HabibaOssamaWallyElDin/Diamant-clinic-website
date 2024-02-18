@@ -1,0 +1,20 @@
+main img {
+    width: 40%;
+}
+
+main .pediatrictitle {
+    font-size: 300%;
+    margin-left: 40px;
+}
+
+main .pediatrictitle span {
+    font-size: 200%;
+    font-weight: bold;
+}
+
+main .article {
+    margin: 30px;
+    box-shadow: 0px 0px 10px 3px #9c9999;
+    padding: 15px;
+    border-radius: 15px;
+}

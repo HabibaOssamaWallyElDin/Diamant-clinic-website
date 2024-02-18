@@ -1,0 +1,118 @@
+.cover {
+    width: 100%;
+    clear: both;
+    padding: 20px;
+}
+
+.cover img {
+    width: 100%;
+}
+
+.contact-appointment-container {
+    padding: 50px;
+    text-align: center;
+}
+
+.left-contact-appointment-container, .right-contact-appointment-container {
+    display: inline-block;
+}
+
+.left-contact-appointment-container {
+    float: left;
+    width: 50%;
+}
+
+.right-contact-appointment-container {
+    float: right;
+    width: 50%;
+}
+
+.rec-widget-container {
+    background-color: #FFFFFF;
+    margin: 30px;
+    padding: 20px;
+    height: 350px;
+    overflow: hidden;
+    transition: 0.5s;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.rec-widget-container:hover {
+    transition: 0.5s;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.rec-widget-container img, .rec-widget-container span, .rec-widget-container a {
+    display: block;
+    margin-bottom: 50px;
+}
+
+.rec-widget-container img {
+    margin: auto;
+}
+
+.rec-widget-container .title-rec-widget-container {
+    font-size: 180%;
+    font-weight: bold;
+}
+
+.rec-widget-container .sub-title-rec-widget-container {
+    font-size: 150%;
+}
+
+.rec-widget-container a {
+    font-size: 130%;
+    color: #00adb5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.rec-widget-container a:hover {
+    text-decoration: underline;
+}
+
+table th {
+    background-color: #00adb5;
+}
+
+table tr {
+    background-color: #d1caca;
+}
+
+table tr:nth-child(even) {
+    background-color: #FFFFFF;
+}
+
+table th, table td {
+    padding: 15px;
+}
+
+table pre {
+    display: inline;
+}
+
+table {
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 200%;
+    text-align: center;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.maps-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.maps-container iframe {
+    width: 80%;
+    height: 300px;
+}
+
+@media screen and (max-width: 800px) {
+    .rec-widget-container {
+        font-size: 1.7vw;
+    }
+}

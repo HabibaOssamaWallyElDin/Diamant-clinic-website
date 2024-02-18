@@ -1,0 +1,44 @@
+main h2 {
+    font-size: 300%;
+    margin-left: 40px;
+
+}
+main h2 span{
+    font-size: 200%;
+    font-weight: bold;
+}
+.HygieneStanders{
+    margin: 15px;
+}
+.HygieneStanders .hygimg{
+    width: 100%;
+    text-align: center;
+}
+.HygieneStanders  img{
+    width:30%;
+    
+    
+}
+.HygieneStanders .all .hygimg img{
+    width: 45%;
+    margin-right: 1%;
+}
+
+.HygieneStanders .hygpra {
+  display: inline-block;  
+    width: 100%;
+    vertical-align: top;
+    margin-left: 40px;
+    font-size: 120%;    
+
+}
+.HygieneStanders .all{
+    vertical-align: top;
+    width: 63%;
+    display: inline-block;
+   
+}
+ main img{
+    border: 3px solid #252525;
+    border-radius: 10px;
+}

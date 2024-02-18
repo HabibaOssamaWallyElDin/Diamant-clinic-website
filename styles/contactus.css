@@ -1,0 +1,44 @@
+main h2 {
+    font-size: 300%;
+}
+
+.contact-info {
+    text-align: center;
+    margin: 20px;
+}
+
+.rec-widget {
+    display: inline-block;
+    width: 230px;
+    height: 350px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: #FFFFFF;
+    vertical-align: top;
+    transition: 0.5s;
+}
+
+.rec-widget:hover {
+    margin-top: -15px;
+    box-shadow: 5px 5px 20px 0px #616161;
+    transition: 0.5s;
+}
+
+.rec-widget img, .rec-widget span, .rec-widget p {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.rec-widget img {
+    width: 100px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.rec-widget span {
+    font-weight: bold;
+    font-size: 150%;
+}

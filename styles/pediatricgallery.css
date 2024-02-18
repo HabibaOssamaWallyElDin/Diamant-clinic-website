@@ -1,0 +1,28 @@
+body{
+    background-image: url(../images/Children-background.jpg);
+}
+main h2 {
+    font-size: 300%;
+    margin-left: 40px;
+
+}
+main h2 span{
+    font-size: 200%;
+    font-weight: bold;
+}
+main .gallery-container{
+    margin: 20px;
+    text-align: center;
+
+}
+main .gallery-container .gallery-pediatric {
+    margin-bottom: 10px;
+    display: inline-block;
+    width:30%;
+    margin-right: 10%;
+    box-shadow: 5px 5px 16px 0px #00adb5;
+
+}
+main .gallery-container .gallery-pediatric img{
+    width: 100%;
+}

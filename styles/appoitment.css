@@ -1,0 +1,70 @@
+main{
+   width: 100%;
+   margin-bottom: 30px;
+   margin-top: 30px;
+   font-size:150%;
+   font-family:serif;
+   color: #ffffff;
+   
+  
+}
+.dataapp{
+    width: 90%;
+    margin-left: 7%;
+    text-align: center;
+}
+.tobecolored{
+    width: 100%;
+    
+    display: inline-block;
+    background-color: #252525;
+    padding: 10px;
+
+}
+fieldset{
+min-width: 100%;
+    display: inline-block;
+    padding: 20px;
+  
+    
+}
+fieldset legend {
+    font-weight: bold;
+    font-size: 120%;
+}
+
+form input{
+    margin-bottom: 40px;
+   text-align: center;
+    font-size: inherit;
+    font-family: inherit;
+  border: 4px solid #00adb5;
+  border-radius: 5px;
+  outline: none;
+  
+  color: #252525; 
+}
+
+form label{
+    margin-right: 50px;
+    
+}
+form table td{ 
+    vertical-align: top;
+
+}
+form table{
+    margin-left: auto;
+    margin-right: auto;
+}
+form .submitbottom{
+    background-color:#252525 ;
+    border: none;
+    box-shadow: 5px 5px 16px 0px #00adb5;
+    color: #ffffff;
+    padding: 15px;
+    cursor: pointer;
+}
+form .submitbottom:focus{
+    box-shadow: 5px 5px 20px 0px #0b4042;
+}

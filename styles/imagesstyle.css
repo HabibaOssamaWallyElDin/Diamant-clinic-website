@@ -1,0 +1,221 @@
+:root {
+    --height: 200px;
+    --width: 27%;
+    --dwidth: 5px;
+    --sheight: 80px;
+    --bheight: 45px;
+    --sliderColor: #252525;
+}
+
+.gallery-container {
+    padding: 50px;
+    text-align: center;
+}
+
+.before-after {
+    text-align: justify;
+    height: var(--height);
+    width: var(--width);
+    box-shadow: 0px 0px 15px 2px #707070;
+    border: 2px solid #252525;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    margin: 15px;
+    display: inline-block;
+}
+
+.before-after:hover .state span {
+    display: inline;
+}
+
+.before-after .images {
+    height: 100%;
+    width: 100%;
+}
+
+.before-after .images .img-b {
+    height: 100%;
+    width: 100%;
+}
+
+.before-after .images .img-a {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+}
+
+.before-after .slider .drag-object {
+    width: var(--dwidth);
+    height: var(--height);
+    position: absolute;
+    margin-left: -1.8px;
+    left: 49.85%;
+    pointer-events: none;
+}
+
+.before-after .slider .drag-object::before, .before-after .slider .drag-object::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: var(--sheight);
+    background: var(--sliderColor);
+}
+
+.before-after .slider .drag-object::before {
+    top: 0;
+    border: 1px solid #FFFFFF;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.before-after .slider .drag-object::after {
+    bottom: 0;
+    border: 1px solid #FFFFFF;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.before-after .drag-object span {
+    height: var(--bheight);
+    width: var(--bheight);
+    border: 3px solid var(--sliderColor);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    padding-top: 10px;
+    box-shadow: 0px 0px 5px 2px #00adb5;
+    background-color: #ffffff4d;
+    z-index: 100;
+}
+
+.before-after .slider .drag-object span::before, .before-after .slider .drag-object span::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    border: 10px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.before-after .slider .drag-object span::before {
+    left: 40%;
+    border-left-color: var(--sliderColor);
+}
+
+.before-after .slider .drag-object span::after {
+    left: 60%;
+    border-top-color: var(--sliderColor);
+}
+
+.before-after .slider input {
+    width: 100%;
+    outline: none;
+    background: none;
+    -webkit-appearance: none;
+}
+
+.before-after .slider input::-webkit-slider-thumb {
+    width: var(--dwidth);
+    height: var(--height);
+    cursor: col-resize;
+    background-color: none;
+    /* background-color: #5a5a5a; */
+    /* box-shadow: 0px 0px 5px 2px #00adb5; */
+    -webkit-appearance: none;
+}
+
+.before-after .state {
+    position: absolute;
+    width: 100%;
+    margin-top: -100px;
+}
+
+.before-after .state span {
+    position: absolute;
+    background-color: #252525f0;
+    color: #FFFFFF;
+    padding: 5px;
+    border-radius: 10px;
+    display: none;
+    box-shadow: 0px 0px 15px 2px #000000;
+}
+
+.before-after .state .after {
+    margin-left: 75%;
+}
+
+.before-after .state .before {
+    margin-left: 7%;
+}
+
+.before-after .slider {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .before-after {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    :root {
+        --height: 200px;
+        --width: 300px;
+        --dwidth: 5px;
+        --sheight: 80px;
+        --bheight: 45px;
+        --sliderColor: #252525;
+    }
+}
+
+.slider:active .drag-object, .slider:active .drag-object span {
+    box-shadow: 5px 5px 10px 0px #0b4042;
+}
+
+.slider:active+.state {
+    display: none;
+}
+
+.cosmetic-dentistry, .dental-implants, .endodontics, .fixedcrownandbriadge, .orthodontics, .bleaching, .scalingandpolishing {
+    /* border: 2px solid #000000; */
+}
+
+.gallery-container {
+    /* display: none; */
+}
+
+.gallery-container, .videos {
+    margin: 30px;
+    box-shadow: 0px 0px 10px 3px #9c9999;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.second-nav {
+    list-style: none;
+    font-size: 150%;
+    text-align: center;
+}
+
+.second-nav li {
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.videos {
+    text-align: center;
+}
+
+iframe {
+    box-shadow: 0px 0px 20px 2px #428daa;
+    border-radius: 15px;
+}
